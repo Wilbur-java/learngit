@@ -1,3 +1,2 @@
-This is the first git file
-Hello world!
-The third edition
+This is a readme file
+Nothing but truth
