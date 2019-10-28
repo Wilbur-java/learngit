@@ -20,9 +20,9 @@ class Project(models.Model):
         return name
 
 
-class  Teammember(models.Model): 
+class  TeamMember(models.Model): 
     name=models.CharField(max_length=20)
-    email=models.CharField(max_length=30)
+    email=models.EmailField()
     project=models.ForeignKey(Project, on_delete=models.CASCADE)
     def __str__(self):
         return name
